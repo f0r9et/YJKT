@@ -1,0 +1,692 @@
+
+cha_20054_anim_standby.png
+size: 2048,1024
+format: RGBA4444
+filter: Linear,Linear
+repeat: none
+ahoge
+  rotate: false
+  xy: 211, 267
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+ashi-L
+  rotate: true
+  xy: 915, 957
+  size: 66, 420
+  orig: 66, 420
+  offset: 0, 0
+  index: -1
+ashi-R
+  rotate: true
+  xy: 915, 892
+  size: 63, 351
+  orig: 63, 351
+  offset: 0, 0
+  index: -1
+ashi-kazari-L
+  rotate: true
+  xy: 527, 690
+  size: 36, 41
+  orig: 36, 41
+  offset: 0, 0
+  index: -1
+ashi-kazari-R
+  rotate: true
+  xy: 1672, 899
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+hanabira-1
+  rotate: false
+  xy: 1019, 630
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+hanabira-2
+  rotate: false
+  xy: 673, 242
+  size: 10, 14
+  orig: 10, 14
+  offset: 0, 0
+  index: -1
+hanabira-3
+  rotate: true
+  xy: 1115, 719
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+hanabira-4
+  rotate: true
+  xy: 1708, 899
+  size: 22, 29
+  orig: 22, 29
+  offset: 0, 0
+  index: -1
+hanabira-5
+  rotate: false
+  xy: 1039, 634
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+hanabira-6
+  rotate: false
+  xy: 945, 444
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+hanabira-7
+  rotate: false
+  xy: 562, 206
+  size: 28, 38
+  orig: 28, 38
+  offset: 0, 0
+  index: -1
+hanabira-8
+  rotate: false
+  xy: 773, 256
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+hanabira-9
+  rotate: false
+  xy: 628, 240
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+hane-L
+  rotate: false
+  xy: 1337, 932
+  size: 209, 91
+  orig: 209, 91
+  offset: 0, 0
+  index: -1
+hane-R
+  rotate: false
+  xy: 320, 2
+  size: 122, 98
+  orig: 122, 98
+  offset: 0, 0
+  index: -1
+hitomi-L
+  rotate: false
+  xy: 1758, 901
+  size: 14, 13
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+hitomi-R
+  rotate: true
+  xy: 252, 486
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+hoho
+  rotate: false
+  xy: 1629, 896
+  size: 41, 25
+  orig: 41, 25
+  offset: 0, 0
+  index: -1
+kami-C-1
+  rotate: true
+  xy: 1019, 607
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+kami-C-2
+  rotate: false
+  xy: 1548, 886
+  size: 45, 35
+  orig: 45, 35
+  offset: 0, 0
+  index: -1
+kami-C-3
+  rotate: false
+  xy: 516, 190
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+kami-L-1
+  rotate: true
+  xy: 1432, 896
+  size: 34, 85
+  orig: 34, 85
+  offset: 0, 0
+  index: -1
+kami-L-2
+  rotate: true
+  xy: 704, 255
+  size: 20, 67
+  orig: 20, 67
+  offset: 0, 0
+  index: -1
+kami-L-3
+  rotate: true
+  xy: 1337, 896
+  size: 34, 93
+  orig: 34, 93
+  offset: 0, 0
+  index: -1
+kami-L-4
+  rotate: false
+  xy: 211, 1
+  size: 107, 99
+  orig: 107, 99
+  offset: 0, 0
+  index: -1
+kami-L-5
+  rotate: false
+  xy: 849, 334
+  size: 94, 124
+  orig: 94, 124
+  offset: 0, 0
+  index: -1
+kami-R-1
+  rotate: true
+  xy: 226, 505
+  size: 140, 35
+  orig: 140, 35
+  offset: 0, 0
+  index: -1
+kami-R-2
+  rotate: true
+  xy: 963, 532
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+kami-R-3
+  rotate: false
+  xy: 1758, 916
+  size: 200, 107
+  orig: 200, 107
+  offset: 0, 0
+  index: -1
+kami-R-4
+  rotate: false
+  xy: 465, 187
+  size: 49, 59
+  orig: 49, 59
+  offset: 0, 0
+  index: -1
+kami-R-7
+  rotate: true
+  xy: 849, 273
+  size: 59, 74
+  orig: 59, 74
+  offset: 0, 0
+  index: -1
+kami-R-8
+  rotate: false
+  xy: 956, 468
+  size: 55, 62
+  orig: 55, 62
+  offset: 0, 0
+  index: -1
+kami-hane
+  rotate: false
+  xy: 522, 162
+  size: 32, 26
+  orig: 32, 26
+  offset: 0, 0
+  index: -1
+kamikazari-1
+  rotate: true
+  xy: 479, 104
+  size: 56, 45
+  orig: 56, 45
+  offset: 0, 0
+  index: -1
+kamikazari-2
+  rotate: false
+  xy: 963, 655
+  size: 72, 51
+  orig: 72, 51
+  offset: 0, 0
+  index: -1
+kamikazari-3
+  rotate: false
+  xy: 1072, 793
+  size: 67, 13
+  orig: 67, 13
+  offset: 0, 0
+  index: -1
+kamikazari-4
+  rotate: false
+  xy: 1240, 812
+  size: 16, 78
+  orig: 16, 78
+  offset: 0, 0
+  index: -1
+kamikazari-5
+  rotate: false
+  xy: 835, 261
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+kao
+  rotate: false
+  xy: 1072, 808
+  size: 80, 82
+  orig: 80, 82
+  offset: 0, 0
+  index: -1
+kao-kage
+  rotate: false
+  xy: 532, 246
+  size: 60, 46
+  orig: 60, 46
+  offset: 0, 0
+  index: -1
+karada-ue
+  rotate: false
+  xy: 753, 277
+  size: 94, 177
+  orig: 94, 177
+  offset: 0, 0
+  index: -1
+koshi-hira-L-1
+  rotate: false
+  xy: 1519, 891
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1
+koshi-hira-L-2
+  rotate: false
+  xy: 1065, 658
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+koshi-hira-L-3
+  rotate: true
+  xy: 1739, 899
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+koshi-hira-L-4
+  rotate: true
+  xy: 651, 239
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+koshi-hira-R-1
+  rotate: true
+  xy: 226, 482
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+koshi-hira-R-2
+  rotate: true
+  xy: 804, 258
+  size: 17, 29
+  orig: 17, 29
+  offset: 0, 0
+  index: -1
+koumori-A
+  rotate: true
+  xy: 527, 462
+  size: 226, 239
+  orig: 226, 239
+  offset: 0, 0
+  index: -1
+koumori-B
+  rotate: false
+  xy: 467, 294
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+koumori-C
+  rotate: false
+  xy: 844, 696
+  size: 104, 143
+  orig: 104, 143
+  offset: 0, 0
+  index: -1
+koumori-D
+  rotate: true
+  xy: 1960, 910
+  size: 113, 83
+  orig: 113, 83
+  offset: 0, 0
+  index: -1
+koumori-E
+  rotate: false
+  xy: 845, 460
+  size: 109, 70
+  orig: 109, 70
+  offset: 0, 0
+  index: -1
+koumori-F
+  rotate: true
+  xy: 425, 102
+  size: 58, 52
+  orig: 58, 52
+  offset: 0, 0
+  index: -1
+koumori-G
+  rotate: false
+  xy: 1037, 656
+  size: 26, 50
+  orig: 26, 50
+  offset: 0, 0
+  index: -1
+koumori-H
+  rotate: false
+  xy: 1595, 886
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+koumori-I
+  rotate: false
+  xy: 915, 842
+  size: 28, 48
+  orig: 28, 48
+  offset: 0, 0
+  index: -1
+kubikazari-1
+  rotate: false
+  xy: 1114, 687
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+kubikazari-2
+  rotate: false
+  xy: 467, 462
+  size: 40, 18
+  orig: 40, 18
+  offset: 0, 0
+  index: -1
+mabuta-L
+  rotate: false
+  xy: 1039, 612
+  size: 18, 20
+  orig: 18, 20
+  offset: 0, 0
+  index: -1
+mabuta-R
+  rotate: false
+  xy: 526, 103
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+matuge-L
+  rotate: true
+  xy: 509, 462
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+matuge-R
+  rotate: true
+  xy: 211, 291
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+mayuge
+  rotate: false
+  xy: 444, 1
+  size: 44, 22
+  orig: 44, 22
+  offset: 0, 0
+  index: -1
+mune-L
+  rotate: true
+  xy: 1268, 894
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1
+mune-R
+  rotate: false
+  xy: 963, 587
+  size: 54, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: -1
+mune-beruto-1
+  rotate: false
+  xy: 425, 162
+  size: 38, 95
+  orig: 38, 95
+  offset: 0, 0
+  index: -1
+mune-beruto-2
+  rotate: true
+  xy: 1115, 747
+  size: 44, 21
+  orig: 44, 21
+  offset: 0, 0
+  index: -1
+mune-beruto-3
+  rotate: false
+  xy: 594, 241
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: -1
+mune-beruto-4
+  rotate: true
+  xy: 925, 279
+  size: 53, 17
+  orig: 53, 17
+  offset: 0, 0
+  index: -1
+mune-koumori
+  rotate: true
+  xy: 463, 80
+  size: 20, 13
+  orig: 20, 13
+  offset: 0, 0
+  index: -1
+necklace-1
+  rotate: true
+  xy: 444, 25
+  size: 75, 17
+  orig: 75, 17
+  offset: 0, 0
+  index: -1
+necklace-2
+  rotate: false
+  xy: 592, 215
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+necklace-3
+  rotate: false
+  xy: 628, 258
+  size: 74, 17
+  orig: 74, 17
+  offset: 0, 0
+  index: -1
+nuno-L
+  rotate: true
+  xy: 1, 316
+  size: 329, 223
+  orig: 329, 223
+  offset: 0, 0
+  index: -1
+nuno-R
+  rotate: false
+  xy: 226, 259
+  size: 239, 221
+  orig: 239, 221
+  offset: 0, 0
+  index: -1
+onaka
+  rotate: false
+  xy: 1065, 744
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+onaka-beruto-1
+  rotate: false
+  xy: 950, 708
+  size: 113, 83
+  orig: 113, 83
+  offset: 0, 0
+  index: -1
+onaka-beruto-2
+  rotate: false
+  xy: 465, 162
+  size: 55, 23
+  orig: 55, 23
+  offset: 0, 0
+  index: -1
+skirt-1
+  rotate: true
+  xy: 845, 532
+  size: 162, 116
+  orig: 162, 116
+  offset: 0, 0
+  index: -1
+skirt-2
+  rotate: false
+  xy: 950, 793
+  size: 120, 97
+  orig: 120, 97
+  offset: 0, 0
+  index: -1
+skirt-3
+  rotate: false
+  xy: 1548, 923
+  size: 208, 100
+  orig: 208, 100
+  offset: 0, 0
+  index: -1
+skirt-4
+  rotate: true
+  xy: 768, 456
+  size: 232, 75
+  orig: 232, 75
+  offset: 0, 0
+  index: -1
+te-L
+  rotate: false
+  xy: 1065, 703
+  size: 48, 39
+  orig: 48, 39
+  offset: 0, 0
+  index: -1
+tojime-L
+  rotate: false
+  xy: 1019, 595
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+tojime-R
+  rotate: false
+  xy: 562, 193
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+ude-L-1
+  rotate: true
+  xy: 1154, 812
+  size: 78, 84
+  orig: 78, 84
+  offset: 0, 0
+  index: -1
+ude-R
+  rotate: false
+  xy: 628, 277
+  size: 123, 183
+  orig: 123, 183
+  offset: 0, 0
+  index: -1
+ude-huriru-L-1
+  rotate: true
+  xy: 526, 128
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+ude-huriru-L-2
+  rotate: false
+  xy: 1115, 703
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+ude-l-2
+  rotate: true
+  xy: 467, 248
+  size: 44, 63
+  orig: 44, 63
+  offset: 0, 0
+  index: -1
+usirokami-1
+  rotate: false
+  xy: 269, 728
+  size: 307, 295
+  orig: 307, 295
+  offset: 0, 0
+  index: -1
+usirokami-2
+  rotate: false
+  xy: 211, 102
+  size: 212, 155
+  orig: 212, 155
+  offset: 0, 0
+  index: -1
+usirokami-3
+  rotate: true
+  xy: 269, 482
+  size: 244, 256
+  orig: 244, 256
+  offset: 0, 0
+  index: -1
+usirokami-4
+  rotate: false
+  xy: 1, 647
+  size: 266, 376
+  orig: 266, 376
+  offset: 0, 0
+  index: -1
+usirokami-5
+  rotate: false
+  xy: 1, 7
+  size: 208, 307
+  orig: 208, 307
+  offset: 0, 0
+  index: -1
+usirokami-6
+  rotate: true
+  xy: 578, 690
+  size: 149, 264
+  orig: 149, 264
+  offset: 0, 0
+  index: -1
+usirokami-7
+  rotate: true
+  xy: 578, 841
+  size: 182, 335
+  orig: 182, 335
+  offset: 0, 0
+  index: -1
