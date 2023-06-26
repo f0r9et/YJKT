@@ -1,0 +1,821 @@
+{
+    "commands": [
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "bgm", 
+            "content": "bgm_0018", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "\u98a8\u5442", 
+            "extraCmd": "", 
+            "cmd": "background", 
+            "content": "bg_3", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_show", 
+            "content": "cha_20006", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3075\u3063\u3075\u3063\u3075\u3001\u304a\u524d\u3002\n\u8155\u3063\u3077\u3057\u3060\u3051\u3067\u306a\u304f\u2026\u2026\n\u3053\u3053\u3082\u3001\u306a\u304b\u306a\u304b\u7acb\u6d3e\u306a\u3082\u306e\u3060\u306a\u300d", 
+            "voice": "cha_20006_vh0010"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u58f0\u306b\u9a5a\u304d\u3001\u98a8\u5442\u306e\u5165\u308a\u53e3\u3092\u89b3\u308b\u3068\n\u305d\u3053\u306b\u306f\u3001\u3042\u308b\u4e00\u70b9\u3092\u898b\u3064\u3081\u3066\n\u4e0d\u6575\u306b\u7b11\u3046\u5f01\u6176\u304c\u3044\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u3084\u3001\u898b\u3089\u308c\u3066\u5927\u304d\u304f\u306a\u308b\u3068\u306f\u3001\u3000\n\u3055\u3059\u304c\u306f\u6211\u304c\u5f37\u6575\u300d", 
+            "voice": "cha_20006_vh0020"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3055\u3066\u3001\u308f\u3057\u304c\u3053\u3053\u306b\u6765\u305f\u3068\u3044\u3046\u3053\u3068\u306f\n\u4f55\u3092\u3057\u306b\u6765\u305f\u304b\u5bdf\u3057\u306f\u3064\u304f\u3060\u308d\u3046\u300d", 
+            "voice": "cha_20006_vh0030"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u3046\u8a00\u3044\u306a\u304c\u3089\n\u5f01\u6176\u306f\u305a\u304b\u305a\u304b\u3068\u98a8\u5442\u306b\n\u4fb5\u5165\u3057\u3066\u304d\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3055\u3041\u2026\u2026\u3053\u306e\u308f\u3057\u3092\u62b1\u3051\u3043\uff01\u300d", 
+            "voice": "cha_20006_vh0040"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3075\u3063\u3075\u3063\u3075\u2026\u2026\n\u98a8\u5442\u306b\u5165\u3063\u3066\u308b\u3068\u304d\u304f\u3089\u3044\u306f\n\u304a\u524d\u3067\u3042\u3063\u3066\u3082\u3001\u6cb9\u65ad\u3059\u308b\u3060\u308d\u3046\u300d", 
+            "voice": "cha_20006_vh0050"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u305d\u3046\u601d\u3063\u3066\u3001\u3053\u306e\u6a5f\u4f1a\u3092\u72d9\u3063\u3066\u3044\u305f\u306e\u3060\u300d", 
+            "voice": "cha_20006_vh0060"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u3046\u8a00\u3063\u3066\u3001\u81ea\u3089\u88c5\u675f\u306e\u4e00\u90e8\u3092\u3081\u304f\u308a\n\u3053\u3061\u3089\u306b\u767d\u3044\u7d20\u808c\u3092\u898b\u305b\u3064\u3051\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_in", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "\u98a8\u5442", 
+            "extraCmd": "", 
+            "cmd": "background", 
+            "content": "bg_1", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_show", 
+            "content": "cha_20006_1", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_out", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u524d\u306b\u62b1\u304b\u308c\u3066\u2026\u2026\n\u308f\u3057\u306f\u3055\u3089\u306b\u5f37\u304f\u306a\u308b\u3002\n\u3075\u3075\u3075\u3001\u697d\u3057\u307f\u3060\u300d", 
+            "voice": "cha_20006_vh0070"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f37\u6c17\u306a\u305d\u306e\u7269\u8a00\u3044\u3068\u306f\u88cf\u8179\u306b\u3001\n\u308f\u305a\u304b\u306b\u7d05\u6f6e\u3057\u305f\u305d\u306e\u808c\u306f\u8276\u3081\u304b\u3057\u304f\u3001\n\u5f01\u6176\u306f\u6065\u305a\u304b\u3057\u305d\u3046\u306b\u8eab\u4f53\u3092\u7e2e\u3081\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3046\u3063\u2026\u2026\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0080"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_blink", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u306e\u808c\u306b%player_name\u306e\u6307\u5148\u304c\u89e6\u308c\u308b\u3068\u3001\n\u5f01\u6176\u306f\u305d\u306e\u8eab\u4f53\u3092\u30d3\u30af\u30f3\u3068\u9707\u308f\u305b\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3093\u3063\u2026\u2026\u306f\u3041\u3045\u2026\u2026\u3063\uff01\n\u3042\u3045\u3063\u2026\u2026\u3093\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0090"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u306e\u767d\u3044\u808c\u306b%player_name\u304c\u6307\u3092\n\u9019\u308f\u305b\u3066\u3044\u304f\u305f\u3073\u3001\u5f01\u6176\u306f\u654f\u611f\u306b\n\u8eab\u4f53\u3092\u53cd\u5fdc\u3055\u305b\u3001\u5410\u606f\u3092\u6f0f\u3089\u3059\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3001\u3046\u2026\u2026\u305d\u3001\u305d\u3093\u306a\u3068\u3053\u308d\u2026\u2026\n\u306a\u3001\u8210\u3081\u308b\u3067\u3001\u306a\u3044\u2026\u2026\u3063\uff01\n\u3050\u3045\u3045\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0100"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u624b\u306e\u3072\u3089\u3067\u808c\u306b\u89e6\u308c\u3064\u3064\u3001\u305d\u306e\u3046\u306a\u3058\u306b\u3001\n\u814b\u306b\u3001\u305d\u3057\u3066\u4e73\u623f\u3078\u3068\u820c\u3092\u9019\u308f\u305b\u3066\u3044\u304f\u3002\n\u5f01\u6176\u306e\u808c\u304c\u9707\u3048\u3066\u3044\u308b\u306e\u304c\u308f\u304b\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3093\u3041\u3063\u2026\u2026\uff01\u3000\u3060\u3001\u3060\u3081\u3063\u2026\u2026\n\u305d\u3093\u306a\u306b\u3057\u305f\u3089\u2026\u2026\u4e73\u9996\u304c\u3001\n\u3068\u308c\u3066\u3001\u3057\u307e\u2026\u2026\u3045\u3093\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0110"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_in", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "\u98a8\u5442", 
+            "extraCmd": "", 
+            "cmd": "background", 
+            "content": "bg_1", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_show", 
+            "content": "cha_20006_2", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_out", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_blink", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u4e73\u623f\u306e\u9802\u70b9\u3001\u5c0f\u3055\u306a\u30d4\u30f3\u30af\u8272\u306e\u4e73\u9996\u3092\n\u820c\u3067\u8ee2\u304c\u3059\u3088\u3046\u306b\u306a\u3081\u308b\u3068\u3001\u5f01\u6176\u306f\n\u5f15\u304d\u7de0\u307e\u3063\u305f\u8eab\u4f53\u3092\u3088\u3058\u3089\u305b\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u306f\u3041\u3093\u3063\u2026\u2026\u306f\u3041\u3001\u3042\u2026\u2026\n\u305d\u3053\u3001\u306f\u2026\u2026\u3063\uff01\u3000\u3093\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0120"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_blink", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u304a\u3082\u3080\u308d\u306b\u5f7c\u5973\u306e\u5272\u308c\u76ee\u306b\u624b\u3092\u6dfb\u3048\u308b\u3068\n\u307e\u305f\u30d3\u30af\u30d3\u30af\u3068\u8eab\u4f53\u3092\u9707\u308f\u305b\u60b6\u3048\u308b\u5f01\u6176\u3002\n\u305d\u3053\u306f\u65e2\u306b\u3057\u3063\u3068\u308a\u3068\u6fe1\u308c\u3066\u3044\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u2026\u2026\u304a\u9858\u3044\u3001\u521d\u3081\u3066\u2026\u2026\u306a\u306e\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0130"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5148\u307b\u3069\u3068\u306f\u5225\u4eba\u306e\u3088\u3046\u306b\u3057\u304a\u3089\u3057\u304f\u3001\n\u5c0f\u52d5\u7269\u306e\u3088\u3046\u306b\u306a\u3063\u305f\u5f01\u6176\u304c\n\u6f64\u3093\u3060\u77b3\u3067\u8a00\u3063\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u2026\u2026\u307b\u3093\u3068\u306f\u3001\u5f37\u304f\u306a\u308a\u305f\u3044\u3068\u304b\u3001\n\u3069\u3046\u3067\u3082\u3044\u3044\u306e\u3060\u2026\u2026\u305f\u3060\u3001\u304a\u524d\u304c\u3001\n\u6b32\u3057\u304f\u3066\u2026\u2026\u3067\u3082\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0140"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3069\u3046\u3057\u3066\u3044\u3044\u304b\u2026\u2026\u308f\u304b\u3089\u306a\u304f\u3066\u2026\u2026\n\u3060\u304b\u3089\u3001\u305d\u306e\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0150"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u9858\u3044\u2026\u2026\u308f\u3057\u306e\u3057\u3087\u3001\u51e6\u5973\u3092\u2026\u2026\n\u3082\u3089\u3063\u2026\u2026\u3066\u2026\u2026\uff1f\u300d", 
+            "voice": "cha_20006_vh0160"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f01\u6176\u306e\u8a00\u8449\u306b\u3086\u3063\u304f\u308a\u3068\u3046\u306a\u3065\u304d\u2026\u2026\n\u5272\u308c\u76ee\u306b\u3042\u3066\u304c\u3063\u305f\u30da\u30cb\u30b9\u3092\n\u3086\u3063\u304f\u308a\u3068\u4fb5\u5165\u3055\u305b\u3066\u3044\u304f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_in", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "\u98a8\u5442", 
+            "extraCmd": "", 
+            "cmd": "background", 
+            "content": "bg_1", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_show", 
+            "content": "cha_20006_3", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_out", 
+            "content": "", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3001\u3042\u3042\u2026\u2026\u3063\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0170"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u307e\u3060\u8ab0\u3082\u53d7\u3051\u5165\u308c\u305f\u3053\u3068\u306e\u306a\u304b\u3063\u305f\n\u5f01\u6176\u306e\u305d\u3053\u306f\u3001\u75db\u3044\u304f\u3089\u3044\u306b\n\u30da\u30cb\u30b9\u3092\u7de0\u3081\u4ed8\u3051\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3093\u2026\u2026\u5927\u4e08\u592b\u2026\u2026\u75db\u304f\u3001\u306f\u2026\u2026\n\u306a\u3044\u2026\u2026\u3080\u3057\u308d\u3001\u6696\u304b\u3044\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0180"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u2026\u2026\u9060\u616e\u3001\u3057\u3066\u3044\u308b\u306e\u304b\u2026\u2026\uff1f\n\u304a\u524d\u3001\u3089\u3057\u304f\u3082\u306a\u3044\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0190"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u633f\u5165\u3055\u308c\u306a\u304c\u3089\u3082\u5f37\u304c\u3063\u3066\u307f\u305b\u308b\u5f01\u6176\u3002\n%player_name\u306f\u305d\u306e\u8170\u3092\u3086\u3063\u304f\u308a\u3001\n\u6148\u3057\u3080\u3088\u3046\u306b\u3001\u8170\u3092\u52d5\u304b\u3057\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3063\u2026\u2026\u3042\u3042\u3063\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0200"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u601d\u308f\u305a\u9854\u3092\u6b6a\u3081\u3001\u8eab\u4f53\u3092\u3088\u3058\u3089\u305b\u308b\u5f01\u6176\u3002\n\u5f7c\u5973\u306e\u5272\u308c\u76ee\u304c\u4e00\u5c64\u304d\u3064\u304f\u3057\u307e\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3068\u3001\u6b62\u3081\u3001\u306a\u3044\u3067\u3063\u2026\u2026\uff01\n\u3082\u3063\u3068\u3001\u308f\u3057\u306e\u4e2d\u2026\u2026\u66b4\u308c\u3001\u3066\u3047\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0210"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3082\u3063\u3068\u6fc0\u3057\u304f\u2026\u2026\u72af\u3057\u3066\u2026\u2026\u3063\uff01\n%player_name\u306b\u2026\u2026\u6c17\u6301\u3061\u3088\u304f\u306a\u2026\u2026\u3066\u3001\n\u6b32\u3057\u3044\u3001\u306e\u3049\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0220"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3046\u3046\u3063\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0230"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f01\u6176\u306e\u8a00\u8449\u306b\u5f93\u3044\u3001\u6fc0\u3057\u3044\u30b9\u30c8\u30ed\u30fc\u30af\u3067\n\u5f7c\u5973\u306e\u81a3\u5185\u3092\u8cac\u3081\u3066\u3044\u304f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3001\u3046\u3001%player_name\u304c\u2026\u2026\n\u4e2d\u3067\u3063\uff01\u3000\u5927\u304d\u304f\u2026\u2026\u3045\u3063\uff01\n\u3042\u3042\u3042\u3093\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0240"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u3068\u3001\u5f01\u6176\u306f\u81ea\u3089\u304c\u3042\u3052\u305f\u5b0c\u58f0\u306b\n\u9a5a\u3044\u305f\u304b\u306e\u3088\u3046\u306a\u8868\u60c5\u3092\u898b\u305b\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3044\u3001\u4eca\u306e\u306f\u2026\u2026\u308f\u3057\u306e\u58f0\u304b\uff1f\n\u305d\u3093\u306a\u3001\u304a\u524d\u306e\u524d\u3067\u3042\u3093\u306a\u58f0\u3092\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0250"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u9854\u3092\u771f\u3063\u8d64\u306b\u3057\u3066\u6065\u305a\u304b\u3057\u304c\u308b\u5f01\u6176\u306e\n\u305d\u306e\u767d\u3044\u808c\u304c\u307e\u305f\u3001\u8276\u3081\u304b\u3057\u304f\u5149\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u308f\u3001\u308f\u3057\u3070\u3063\u304b\u308a\u3067\u306a\u304f\uff01\n\u304a\u524d\u3082\u3082\u3063\u3068\u3001\u6c17\u6301\u3061\u3088\u304f\u2026\u2026\n\u306a\u3063\u3066\u3001\u6b32\u3057\u3044\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0260"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3044\u3063\u3057\u3087\u3067\u306a\u3044\u3068\u2026\u2026\u305d\u306e\u2026\u2026\n\u5bc2\u3057\u3044\u3001\u304b\u3089\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0270"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u3046\u8a00\u3063\u3066\u3001\u5f01\u6176\u306f\u81ea\u3089\u8170\u3092\u52d5\u304b\u3057\u59cb\u3081\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3069\u3001\u3069\u3046\u2026\u2026\u3060\uff1f\n\u3053\u3053\u306f\u3001\u6c17\u6301\u3061\u3001\u3044\u3044\u2026\u2026\u304b\uff1f\u300d", 
+            "voice": "cha_20006_vh0280"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u308f\u2026\u2026\u308f\u3057\u306f\u2026\u2026\u306f\u3041\u2026\u2026\n\u3059\u3054\u3001\u304f\u2026\u2026\u6c17\u6301\u3061\u2026\u2026\u3044\u3044\u3001\u3093\u2026\u2026\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0290"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u81ea\u3089\u8170\u3092\u52d5\u304b\u3057\u3001\u3053\u3061\u3089\u3092\u653b\u3081\u3088\u3046\u3068\n\u3057\u3064\u3064\u3082\u3001\u307e\u3059\u307e\u3059\u81ea\u5206\u304c\u6c17\u6301\u3061\u3088\u304f\n\u306a\u3063\u3066\u3057\u307e\u3063\u3066\u3044\u308b\u5f01\u6176\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u306f\u3041\u3063\u3001\u306f\u3041\u3063\u2026\u2026\u3093\u3063\uff01\n\u306d\u3001\u306d\u3047\u2026\u2026\u6c17\u6301\u3061\u3001\u3044\u3044\u2026\u2026\uff1f\u300d", 
+            "voice": "cha_20006_vh0300"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u4e0d\u5b89\u305d\u3046\u306b\u305d\u3046\u5c0b\u306d\u308b\u5f01\u6176\u3092\u3001\n%player_name\u306f\u529b\u5f37\u304f\u62b1\u304d\u3057\u3081\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u2026\u2026\u3042\u3001\u3093\u2026\u2026\n\u2026\u2026\u3093\u3075\u3075\u3001\u3084\u3063\u3071\u308a\u3001\u512a\u3057\u3044\u3001\u306a\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0310"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u9858\u3044\u2026\u2026\u3082\u3063\u3068\u3001\u6fc0\u3057\u304f\u3001\n\u7a81\u3044\u3066\u2026\u2026\u3063\uff01\u3000\u308f\u3057\u306e\u3053\u3068\u3001\n\u8eab\u4f53\u306e\u82af\u307e\u3067\u3001\u72af\u3057\u3066\u2026\u2026\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0320"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f7c\u5973\u306e\u6c17\u6301\u3061\u306b\u5fdc\u3048\u3001\n\u9060\u616e\u306a\u304f\u5f01\u6176\u306e\u5965\u306b\n\u4f55\u5ea6\u3082\u30da\u30cb\u30b9\u3092\u7a81\u304d\u7acb\u3066\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3042\u3042\u3063\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0330"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3053\u3001\u3053\u308c\u2026\u2026\u306f\uff01\uff1f\n\u3053\u3001\u3053\u3093\u306a\u306e\u3001\u3055\u3063\u304d\u3088\u308a\u3001\n\u3059\u3054\u2026\u2026\u3044\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0340"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5965\u306e\u65b9\u306b\u307e\u3067\u30da\u30cb\u30b9\u3092\u6df1\u304f\u5dee\u3057\u8fbc\u307e\u308c\u3001\n\u5f01\u6176\u306f\u3055\u3089\u306b\u6fc0\u3057\u304f\u8eab\u4f53\u3092\u3088\u3058\u3089\u305b\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3053\u3063\u3001\u3053\u3093\u306a\u3001\u306e\u2026\u2026\u3063\uff01\n\u305a\u308b\u3001\u3044\u2026\u2026\u3063\uff01\u3000\u307e\u3060\u3053\u3093\u306a\u2026\u2026\n\u5965\u3001\u307e\u3067\u3001\u3048\u3047\u3063\uff01\uff01\u300d", 
+            "voice": "cha_20006_vh0350"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3063\uff01\u3000\u3042\u3041\u3093\u3063\uff01\u3000\u3060\u3001\u3060\u3081\u3063\uff01\n\u3053\u3093\u306a\u3001\u306e\u3049\u3063\uff01\u3000\u304a\u304b\u3057\u304f\u2026\u2026\u3063\uff01\n\u304a\u304b\u3057\u304f\u3001\u306a\u3063\u3061\u3083\u3001\u3046\u3045\u3063\uff01\uff01\u300d", 
+            "voice": "cha_20006_vh0360"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5b50\u5bae\u3092\u4f55\u5ea6\u3082\u30ce\u30c3\u30af\u3055\u308c\u3001\u60b6\u3048\u308b\u5f01\u6176\u3002\n\u304e\u3085\u3046\u304e\u3085\u3046\u3068\u7de0\u3081\u4ed8\u3051\u308b\u81a3\u58c1\u306f\n\u30da\u30cb\u30b9\u3092\u307e\u3059\u307e\u3059\u80a5\u5927\u5316\u3055\u305b\u3066\u3044\u304d\u2026\u2026", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3041\u2026\u2026\u3063\uff01\u3000\u307e\u305f\u3001\u4e2d\u3067\u2026\u2026\u3063\uff01\uff1f\n\u5927\u304d\u304f\u3001\u306a\u308b\u3001\u306e\u3049\u2026\u2026\u3063\uff01\uff1f\u300d", 
+            "voice": "cha_20006_vh0370"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3044\u3044\u3088\u2026\u2026\u3063\uff01\u3000\u4e2d\u306b\u3001\u3044\u3063\u3071\u3044\u2026\u2026\n\u3044\u3063\u3071\u3044\u3001\u51fa\u3057\u3066\u3047\u3063\uff01\u3000\u3044\u3063\u3071\u3044\u3001\n\u6b32\u3057\u3044\u306e\u3049\u3049\u3063\uff01\uff01\u300d", 
+            "voice": "cha_20006_vh0380"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u308f\u3057\u306e\u3001\u4e2d\u3082\u3049\u3063\uff01\u3000%player_name\u3067\u3001\n\u3044\u3063\u3071\u3044\u72af\u3057\u3066\u3063\uff01\u3000\u72af\u3057\u3066\u3047\u3047\u3063\uff01\uff01\u300d", 
+            "voice": "cha_20006_vh0390"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f7c\u5973\u306e\u671b\u3080\u307e\u307e\u3001\u305d\u3057\u3066\u6b32\u671b\u306e\u307e\u307e\u306b\n\u3055\u3089\u306b\u6fc0\u3057\u304f\u8170\u3092\u52d5\u304b\u3057\u3066\u3044\u304f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3042\u3042\u3042\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0400"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u666e\u6bb5\u3068\u306f\u9055\u3046\u4e71\u308c\u305f\u5b0c\u58f0\u306b\u3001\n%player_name\u3082\u307e\u305f\u8208\u596e\u3057\u3066\n\u6fc0\u3057\u304f\u4e71\u308c\u3066\u3044\u304f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3046\u3001\u3042\u3001\u3042\u3042\u3063\uff01\n\u6765\u308b\u2026\u2026\u306a\u306b\u304b\u3001\u3059\u3054\u3044\u306e\u2026\u2026\uff01\n\u3053\u3093\u306a\u306e\u3001\u3042\u3042\u3042\u3042\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0410"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u306d\u3001\u304c\u3044\u2026\u2026\u304e\u3085\u3063\u3066\u3001\u3057\u3066\uff01\n\u308f\u3057\u306e\u3053\u3068\u3092\u2026\u2026\u306f\u306a\u3055\u306a\u3044\u3067\u3047\u3047\u3047\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0420"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u306e\u8eab\u4f53\u3092\u304d\u3064\u304f\u62b1\u304d\u3057\u3081\u308b\u3068\u3001\n\u5f01\u6176\u306e\u4e2d\u304c\u307e\u308b\u3067\u751f\u304d\u7269\u306e\u3088\u3046\u306b\n\u30da\u30cb\u30b9\u3092\u7de0\u3081\u4ed8\u3051\u305f\uff01", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_in", 
+            "content": "White", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "\u98a8\u5442", 
+            "extraCmd": "", 
+            "cmd": "background", 
+            "content": "bg_1", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "chara_show", 
+            "content": "cha_20006_4", 
+            "voice": ""
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "transition_out", 
+            "content": "White", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3042\u3063\uff01\u300d", 
+            "voice": "cha_20006_vh0430"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u5f01\u6176\u81ea\u8eab\u3082\u610f\u8b58\u3057\u3066\u3044\u306a\u3044\u3067\u3042\u308d\u3046\n\u6025\u8972\u306b\u5bfe\u3057\u3001\u30da\u30cb\u30b9\u306f\u4e00\u6c17\u306b\n\u5927\u91cf\u306e\u7cbe\u3092\u5410\u304d\u51fa\u3059\u2026\u2026\uff01", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3042\u2026\u2026\u3042\u3042\u2026\u2026\n\u3053\u308c\u304c\u2026\u2026%player_name\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0440"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u606f\u3092\u8352\u304f\u3057\u306a\u304c\u3089\u3001\u81ea\u3089\u306e\u5272\u308c\u76ee\u306b\u6307\u3092\u6dfb\u3048\n\u7537\u306e\u7cbe\u3092\u7d61\u3081\u3068\u308b\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3075\u3075\u2026\u2026\u3044\u3063\u3071\u3044\u3001\u72af\u3055\u308c\u3061\u3083\u3063\u305f\u2026\u2026\n\u3053\u3093\u306a\u306b\u51fa\u3057\u3066\u2026\u2026\u5b09\u3057\u3044\u2026\u2026\u3046\u3075\u300d", 
+            "voice": "cha_20006_vh0450"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u7cbe\u5b50\u3092\u306a\u3081\u306a\u304c\u3089\u3001\u5f01\u6176\u306f\u5996\u8276\u306b\u7b11\u3046\u3002\n\u305d\u308c\u306f\u666e\u6bb5\u306e\u8c6a\u5feb\u306a\u59ff\u304b\u3089\u306f\u3001\n\u307e\u308b\u3067\u60f3\u50cf\u304c\u3064\u304b\u306a\u3044\u6deb\u9761\u3055\u3060\u3063\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u3053\u3093\u306a\u306b\u3001\u6c17\u6301\u3061\u3088\u304f\u306a\u308b\u306a\u3069\u2026\u2026\n\u601d\u3063\u3066\u3082\u307f\u306a\u304b\u3063\u305f\u2026\u2026\n\u3082\u3063\u3068\u3057\u305f\u3089\u3001\u3082\u3063\u3068\u3001\u51c4\u3044\u3001\u304b\u3082\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0460"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u306a\u3041\u3001\u6b21\u306f\u5916\u3068\u304b\u3067\u2026\u2026\n\u305d\u308c\u3053\u305d\u3001\u6226\u5834\u3068\u304b\u3067\u3057\u305f\u3089\u3001\n\u3082\u3063\u3068\u51c4\u3044\u304b\u3082\u3057\u308c\u306c\u3001\u306a\uff1f\u300d", 
+            "voice": "cha_20006_vh0470"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u884c\u70ba\u3092\u7d42\u3048\u305f\u3068\u305f\u3093\n\u3068\u3093\u3067\u3082\u306a\u3044\u3053\u3068\u3092\u8a00\u3044\u3060\u3059\u5f01\u6176\u3092\u3001\n%player_name\u306f\u512a\u3057\u304f\u62b1\u304d\u5bc4\u305b\u305f\u3002", 
+            "voice": ""
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u6c7a\u3081\u305f\u305e\u3001\u308f\u3057\u306f\u304a\u524d\u3068\u3082\u3063\u3068\u2026\u2026\n\u6700\u4f4e\u3067\u3082\u5343\u56de\u306f\u307e\u3050\u308f\u3046\u3068\u306a\u300d", 
+            "voice": "cha_20006_vh0480"
+        }, 
+        {
+            "name": "\u6b66\u8535\u574a\u5f01\u6176", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u300c\u304a\u524d\u304b\u3089\u306f\u970a\u529b\u3092\u5f97\u3066\u3001\n\u3082\u3063\u3068\u5f37\u304f\u306a\u3089\u306a\u304f\u3066\u306f\u306a\u3089\u3093\u304b\u3089\u306a\u2026\u2026\u300d", 
+            "voice": "cha_20006_vh0490"
+        }, 
+        {
+            "name": "", 
+            "title": "", 
+            "extraCmd": "", 
+            "cmd": "text", 
+            "content": "\u305d\u3046\u3044\u3046\u5f01\u6176\u306e\u76ee\u306f\u3001\u3059\u3067\u306b\u671f\u5f85\u306b\n\u6f64\u307f\u3001%player_name\u306b\u72af\u3055\u308c\u308b\u306e\u3092\n\u5f85\u3061\u7126\u304c\u308c\u3066\u3044\u305f\u3002", 
+            "voice": ""
+        }
+    ], 
+    "id": "cha_20006_1"
+}

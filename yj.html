@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://esotericsoftware.com/files/spine-player/3.7/spine-player.js"></script>
+<link rel="stylesheet" href="https://esotericsoftware.com/files/spine-player/3.7/spine-player.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title style="z-index:1;position:fixed;top:3em;">妖女資料</title>
+    <style>
+        /* 設置清單樣式 */
+        #character-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #character-list li {
+            width: 100px;
+            margin: 1vmin;
+        }
+        /* 設置角色詳細信息頁面樣式 */
+        #character-details {
+            display: none;
+            position: relative;
+        }
+		#character-name {
+			left:5em;
+			position:fixed;
+		}
+		#character-image {
+			max-width: -webkit-fill-available;
+			position: sticky;
+			z-index: -1;
+		}
+        /* 設置按鈕樣式 */
+        #back-button,
+        #sd-button,
+        #spine-button,
+        #big-button {
+			position fixed;
+			z-index:1;
+            min-width: 2em;
+            min-height: 2em;
+        }
+        /* 設置返回按鈕樣式 */
+        #back-button {
+            min-width: 5em;
+            min-height: 3em;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+        }
+        /* 設置 BIG、SD 和 SPINE 按鈕樣式 */
+        #big-button,
+        #sd-button,
+        #spine-button {
+			z-index:1;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #big-button {
+            top: 0;
+        }
+        #sd-button {
+            top: 2em;
+        }
+        #spine-button {
+            top: 4em;
+        }
+		#player-container {
+			top:0;
+			z-index:-1;
+			height:100vmin;
+			position: fixed;
+			backgroundColor: "#cccccccf"
+		}
+    </style>
+</head>
+<body style="background-color:#cccccc;">
+    <h1>遊戲圖鑑</h1>
+
+    <!-- 角色清單 -->
+    <ul id="character-list">
+        <!-- 在這裡插入角色頭像 -->
+    </ul>
+
+    <!-- 角色詳細信息頁面 -->
+    <div id="character-details">
+        <h2 id="character-name"></h2>
+        <img id="character-image" src="" alt="">
+        <button id="back-button">返回</button>
+        <button id="big-button">BIG</button>
+        <button id="sd-button">SD</button>
+        <button id="spine-button">SPINE</button>
+		<div id="player-container"></div>
+    </div>
+    <!-- 在這裡插入 JavaScript 代碼 -->
+	<script>// 設置遊戲資料路徑
+const gameDataPath = "./version/resources/hero/";
+// 定義當前顯示的角色
+let currentCharacter = null;
+// 獲取清單元素
+let characterList = document.getElementById("character-list");
+// 使用 fetch() 函數來讀取 characters.json 文件
+fetch('./script/characters.json')
+    .then(response => response.json())
+    .then(characters => {
+        // 遍歷所有角色
+        for (let character of characters) {
+            // 創建一個新的 li 元素
+            let li = document.createElement("li");
+            // 創建一個 img 元素，用於顯示角色頭像
+            let img = document.createElement("img");
+            img.src = gameDataPath + "head/" + character.head+".png";
+            img.alt = character.name;
+            // 為 img 元素添加點擊事件處理程序
+            img.addEventListener("click", () => {
+                showCharacterDetails(character);
+            });
+            // 將 img 元素添加到 li 元素中
+            li.appendChild(img);
+            // 將 li 元素添加到清單中
+            characterList.appendChild(li);
+        }
+    });
+// 獲取角色詳細信息頁面元素
+let characterDetails = document.getElementById("character-details");
+let characterName = document.getElementById("character-name");
+let characterImage = document.getElementById("character-image");
+let backButton = document.getElementById("back-button");
+let bigButton = document.getElementById("big-button");
+let sdButton = document.getElementById("sd-button");
+let spineButton = document.getElementById("spine-button");
+// 獲取 player-container 元素
+let playerContainer = document.getElementById("player-container");
+
+// 為返回按鈕添加點擊事件處理程序
+backButton.addEventListener("click", () => {
+    characterImage.style.display = "block";
+
+    hideCharacterDetails();
+});
+
+// 為 BIG 按鈕添加點擊事件處理程序
+bigButton.addEventListener("click", () => {
+    characterImage.style.display = "block";
+
+    showBIGImage();
+});
+
+// 為 SD 按鈕添加點擊事件處理程序
+sdButton.addEventListener("click", () => {
+    showSDImage();
+});
+spineButton.addEventListener("click", () => {
+	showSpineAnim();
+});
+// 定義顯示角色詳細信息的函數
+function showCharacterDetails(character) {
+    // 更新當前顯示的角色
+    currentCharacter = character;
+
+    // 更新角色詳細信息
+    characterName.textContent = character.name;
+    characterImage.src = gameDataPath + "big/" + character.big+".png";
+
+    // 顯示角色詳細信息頁面
+    characterList.style.display = "none";
+    characterDetails.style.display = "block";
+}
+// 定義隱藏角色詳細信息的函數
+function hideCharacterDetails() {
+    // 隱藏角色詳細信息頁面
+    characterList.style.display = "flex";
+    characterDetails.style.display = "none";
+}
+// 定義顯示 BIG 圖片的函數
+function showBIGImage() {
+	// 清空 player-container 內容
+	playerContainer.innerHTML = "";
+    // 更新角色圖片
+    if (currentCharacter) {characterImage.src = gameDataPath + "big/" + currentCharacter.big+".png";}}
+// 定義顯示 SD 圖片的函數
+function showSDImage() {
+    // 清空 player-container 內容
+	playerContainer.innerHTML = "";
+	// 更新角色圖片
+    if (currentCharacter) {
+        characterImage.src = gameDataPath + "picture_sd/" + currentCharacter.sd+".png";
+    };
+}
+function showSpineAnim() {
+
+    // 清空 player-container 內容
+    playerContainer.innerHTML = "";
+	
+    // 初始化 Spine 播放器
+    new spine.SpinePlayer("player-container", {
+        jsonUrl: gameDataPath + "spine/" + currentCharacter.u + ".json",
+        atlasUrl: gameDataPath + "spine/" + currentCharacter.u + ".atlas",
+        showControls: false,
+        premultipliedAlpha: false,
+        backgroundColor: "#cccccccf",
+        defaultMix: 1,
+		success: (player) =>{
+			// 隱藏 SD 圖片
+			characterImage.style.display = "none";
+		}		
+    });
+}
+</script>
+</body>
+</html>

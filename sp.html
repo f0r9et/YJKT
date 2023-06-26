@@ -1,0 +1,18 @@
+<!Doctype=html>
+<html><head>
+<script src="https://esotericsoftware.com/files/spine-player/3.7/spine-player.js"></script>
+<link rel="stylesheet" href="https://esotericsoftware.com/files/spine-player/3.7/spine-player.css">
+<div id="player-container"></div>
+
+<script>
+new spine.SpinePlayer("player-container", {
+	jsonUrl: "/version/resources/hero/spine/cha_00001_anim_standby.json",
+	atlasUrl: "/version/resources/hero/spine/cha_00001_anim_standby.atlas",
+	showControls: false,
+	premultipliedAlpha: true,
+	backgroundColor: "#cccccccf",
+	alpha: true,
+	defaultMix: 1,
+});
+</script>	
+</body></html>
