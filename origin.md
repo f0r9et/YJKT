@@ -1,4 +1,4 @@
-## ChatGPT請求生成的對應原文 ##
+![ezgif com-gif-maker_4](https://github.com/f0r9et/YJKT/assets/63490856/ab283c67-73be-4c7e-a7d1-c3ab5226f37b)## ChatGPT請求生成的對應原文 ##
 
 我希望你依照我提供的資訊整理出一個英文的readme.md內容並讓我貼到github上
 
@@ -49,7 +49,8 @@ cdn-static-jprd-sakura.fusion-studio.co.jp 由於遊戲已經停止服務了 我
 
 跟他說我還有在通電 不要扳馬達 他只會說 你閉嘴 然後老師出現後再把所有東西都推卸給我 說自己只燒一顆馬達
 
-我還做了競賽分工的gif![ezgif com-gif-maker_4]([https://github.com/f0r9et/YJKT/assets/63490856/125b9c9a-219a-4897-b764-60587ee26b95](https://cdn.discordapp.com/attachments/1109519140789682206/1116970019214069800/ezgif.com-gif-maker_4.gif))
+我還做了競賽分工的gif![ezgif com-gif-maker_4](https://github.com/f0r9et/YJKT/assets/63490856/6ccc800d-12cf-4587-a8d0-b023676c2f07)
+
 
 
 
